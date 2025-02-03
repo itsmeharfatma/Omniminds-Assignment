@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .min-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .fontStyle {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/* @layer base {
+  .hero-image {
+    background-image: url("/public/hero.jpg");
+    background-repeat: no-repeat;
+  }
+} */
