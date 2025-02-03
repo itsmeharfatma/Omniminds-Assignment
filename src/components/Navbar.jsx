@@ -5,7 +5,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <header className="px-7 py-5 sm:px-24 sm:pb-3 sm:pt-6 absolute z-10 w-full fontStyle bg-white">
+    <header className="px-7 md:px-4 py-5 sm:pb-3 sm:pt-6 absolute z-10 w-full fontStyle bg-white">
       <nav className="flex justify-start items-center gap-16 max-container">
         <a href="/">
           <h1 className="font-bold text-2xl text-gray-900">Skill Showcase</h1>
