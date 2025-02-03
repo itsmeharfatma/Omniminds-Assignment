@@ -30,7 +30,7 @@ const Footer = () => {
 
       <div className="flex justify-between mt-6 max-sm:flex-col-reverse gap-4 max-sm:items-start items-center">
         <select
-          className={`cursor-pointer py-1 bg-transparent border border-gray-300 text-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+          className={`w-24 cursor-pointer px-1 py-1 bg-transparent border border-gray-300 text-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
           }`}
         >
           {languages.map((item) => (
