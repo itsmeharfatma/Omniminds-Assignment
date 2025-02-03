@@ -1,0 +1,42 @@
+Installation Instructions for Landing Page Assignment:
+
+Prerequisites -
+
+Make sure you have the following installed on your machine:
+1. Node.js
+2. npm or yarn
+
+Step 1: Clone the Repository -
+git clone https://github.com/itsmeharfatma/Omniminds-Assignment.git
+
+Step 2: Navigate to the Project Directory - 
+cd Omniminds-Assignment
+
+Step 3: Install Dependencies - 
+If using npm:
+npm install
+
+If using yarn:
+yarn install
+
+Step 4: Start the Server - 
+If using npm:
+npm run start
+
+If using yarn:
+yarn start
+
+Step 5: Open the Project in Browser - 
+Once the server is running, open your browser and go to:
+http://localhost:3000
+
+
+
+
+
+
+
+
+Notes:
+1. This assignment is built using React.js with Tailwind CSS for styling.
+2. Ensure your Node.js and package manager are up to date.
