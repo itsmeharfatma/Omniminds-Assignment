@@ -6,7 +6,7 @@ const CTA = () => {
       <h3 className="text-xl font-semibold text-gray-200">
         Subscribe to our newsletter
       </h3>
-      <div className="md:max-w-[45%] w-full flex items-center justify-between max-sm:flex-col gap-2 pl-4 sm:border sm:border-slate-gray rounded-full">
+      <div className="md:max-w-[45%] w-full flex items-center justify-between gap-2 pl-4 border border-slate-gray rounded-full">
         <div className="flex items-center gap-2">
           <i class="fa-regular fa-envelope fa-lg text-gray-300"></i>
           <input
@@ -16,7 +16,7 @@ const CTA = () => {
           />
         </div>
         <div className="flex max-sm:justify-start items-center max-sm:w-full text-white">
-          <button className="bg-[#626ae7] py-2 px-4 rounded-r-full">
+          <button className="bg-[#626ae7] py-2 px-4 rounded-r-full transition-all duration-300 hover:bg-[#3e47c9]">
             Subscribe
           </button>
         </div>

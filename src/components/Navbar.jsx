@@ -14,7 +14,7 @@ const Navbar = () => {
         <ul
           className={`lg:flex lg:flex-1 lg:justify-start lg:space-x-10 lg:items-center lg:py-0 py-8 absolute lg:static lg:px-0 px-4  ${
             open
-              ? "top-24 left-5 space-y-4 bg-white w-[88%] h-72 shadow-xl"
+              ? "top-16 left-5 space-y-4 bg-white w-[88%] h-72 shadow-xl"
               : "top-[-490px]"
           }`}
         >

@@ -3,17 +3,17 @@ import CTA from "./Cta";
 
 const Footer = () => {
   return (
-    <footer className="min-container">
+    <footer id="contact" className="min-container">
       <CTA />
-      <div className="flex justify-between items-start gap-14 sm:gap-20 flex-wrap max-lg:flex-col">
+      <div className="flex justify-between items-start gap-4 sm:gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a to="/">
+          <a href="/">
             <h1 className="text-3xl font-bold text-white">Skill Showcase</h1>
           </a>
         </div>
 
         <div className="flex flex-1 justify-end lg:gap-10 gap-14 flex-wrap">
-          <ul className="flex gap-10">
+          <ul className="flex flex-row max-md:flex-col max-md:gap-2 gap-10">
             {footerLinks.map((link) => (
               <li
                 className="mt-2 text-gray-200 leading-normal hover:text-slate-gray cursor-pointer"
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="border-t border-gray-200 my-8" />
+      <hr className="border-t border-gray-200 my-6" />
 
       <div className="flex justify-between mt-6 max-sm:flex-col-reverse gap-4 max-sm:items-start items-center">
         <select

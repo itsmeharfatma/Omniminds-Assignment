@@ -1,7 +1,7 @@
 const Testimonial = () => {
   return (
-    <section className="sm:px-16 px-8 sm:py-12 py-12 fontStyle">
-      <div className="flex justify-center items-center max-md:flex-col mt-12 sm:gap-16 gap-8 w-full min-container">
+    <section className="sm:px-16 px-8 sm:pt-12 sm:pb-20 py-12 fontStyle">
+      <div className="flex justify-center items-center max-md:flex-col mt-6 sm:gap-16 gap-8 w-full min-container">
         <div className="flex justify-start items-center">
           <img
             src="/testimonial.jpg"
